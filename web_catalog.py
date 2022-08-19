@@ -17,4 +17,8 @@ catalog = cur.fetchall()
 df = pandas.DataFrame(catalog)
 
 # testing dataframe data
-streamlit.write(df)
+# streamlit.write(df)
+
+# put the styles/colors into a list
+color_list = df[0].values.tolist()
+streamlit.write(color_list)
