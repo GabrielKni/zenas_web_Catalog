@@ -37,4 +37,4 @@ streamlit.image(details_df[0], width=400, caption=product_caption)
 
 streamlit.write('Price', details_df[1])
 streamlit.write('Sizes Available',details_df[2])
-streamlit.write(details_df[3]
+streamlit.write(details_df[3])
